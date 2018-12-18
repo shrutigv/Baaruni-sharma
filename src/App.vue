@@ -8,6 +8,7 @@
 				<li><router-link to="/instagram">Instagram</router-link></li>
 				<li><router-link to="/youtube">Youtube</router-link></li>
 				<li><router-link to="/about">About</router-link></li>
+				<li><router-link to="/invitation">Invite</router-link></li>
 			</ul>
     	</div>
 	    <router-view></router-view>
