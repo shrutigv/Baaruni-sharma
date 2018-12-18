@@ -1,94 +1,48 @@
+
 <template>
-  <div id="app">
-    
-    <Home msg="Happy birthday"/>
-    <Ballon></Ballon>
-    <div class="balloon"></div>
-    <div class="balloon"></div>
-    <div class="balloon"></div>
-    <div class="balloon"></div>
-    <div class="balloon"></div>
-  </div>
+  <div id="app" class="background-change">
+	    <div class="navigation">
+     	 	<ul>
+				<li><router-link to="/">Home</router-link></li>
+				<li><router-link to="/lastestUpdate">Latest update</router-link></li>
+				<li><router-link to="/instagram">Instagram</router-link></li>
+				<li><router-link to="/youtube">Youtube</router-link></li>
+				<li><router-link to="/about">About</router-link></li>
+			</ul>
+    	</div>
+	    <router-view></router-view>
+    </div>
 </template>
 
 <script>
 import Home from './components/Home.vue'
-import Ballon from './components/Ballon.vue'
+import Youtube from './components/Youtube.vue'
+import Instagram from './components/Instagram.vue'
+import About from './components/About.vue'
 
 export default {
   name: 'app',
   components: {
     Home,
-    Ballon
+	Instagram,
+	Youtube,
+	About
   }
 }
 </script>
 
 <style>
+.navigation{
+  text-align: right;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 body { margin:20px; background:hsl(70, 31%, 85%); text-align:center; }
-
-.balloon {
-  display:inline-block;
-   width:120px;
-  height:145px;
-  background:hsl(215,50%,65%);
-  border-radius:80%;
-  position:relative;
-  box-shadow:inset -10px -10px 0 rgba(0,0,0,0.07);
-  margin:20px 30px;
-  transition:transform 0.5s ease;
-  z-index:10;
-  animation:balloons 4s ease-in-out infinite;
-  transform-origin:bottom center;
-}
-
-@keyframes balloons {
-  0%,100%{ transform:translateY(0) rotate(-4deg); }
-  50%{ transform:translateY(-25px) rotate(4deg); }
-}
-
-
-.balloon:before {
-  content:"▲";
-  font-size:20px;
-  color:hsl(215,30%,50%);
-  display:block;
-  text-align:center;
-  width:100%;
-  position:absolute;
-  bottom:-12px;
-  z-index:-100;
-}
-
-.balloon:after {
- display:inline-block; top:153px;
-  position:absolute;
-  height:250px;
-  width:1px;
-  margin:0 auto;
-  content:"";
-  background:rgba(0,0,0,0.2); 
-}
-
-.balloon:nth-child(2){ background:hsl(245,40%,65%); animation-duration:3.5s; }
-.balloon:nth-child(2):before { color:hsl(245,40%,65%);  }
-
-.balloon:nth-child(3){ background:hsl(139,50%,60%); animation-duration:3s; }
-.balloon:nth-child(3):before { color:hsl(139,30%,50%);  }
-
-.balloon:nth-child(4){ background:hsl(59,50%,58%); animation-duration:4.5s; }
-.balloon:nth-child(4):before { color:hsl(59,30%,52%);  }
-
-.balloon:nth-child(5){ background:hsl(23,55%,57%); animation-duration:5s; }
-.balloon:nth-child(5):before { color:hsl(23,44%,46%);  }
 
 
 </style>
