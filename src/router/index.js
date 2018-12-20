@@ -5,6 +5,7 @@ import About from '../components/About.vue'
 import Youtube from '../components/Youtube.vue'
 import Instagram from '../components/Instagram.vue'
 import Invitation from '../components/Invitation.vue'
+import BirthdayCard from '../components/BirthdayCard.vue'
 
 
 Vue.use(Router)
@@ -20,6 +21,11 @@ export default new Router({
       path: '/invitation',
       name: 'Invitation',
       component: Invitation
+    },
+    {
+      path: '/birthday',
+      name: 'BirthdayCard',
+      component: BirthdayCard
     },
     {
       path: '/about',
