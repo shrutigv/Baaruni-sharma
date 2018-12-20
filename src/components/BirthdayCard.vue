@@ -58,17 +58,21 @@ body, html {
 		}
 .babyImg{
   text-align: center;
+   position: relative;
+  bottom: 110px;
+
 }
 .babyImg img{
   border: 7px solid #FFF; 
   width:150px; 
   border-radius: 60px;
+ 
 }
 .content{
     width:400px;
     padding: 10px;
     color:rgb(245, 245, 245); 
-    background-color: rgb(238, 134, 193);
+    background-color: rgb(236, 130, 190);
     margin: 0 auto;
     text-align: left;
     vertical-align: center;

@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "node build/build.js",
     "lint": "vue-cli-service lint",
-    "start": "vue-cli-service serve"
+    "start": "node server.js"
   },
   "dependencies": {
     "vue": "^2.5.17",

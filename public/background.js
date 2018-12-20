@@ -30,8 +30,8 @@ window.addEventListener("load", function() {
 			count: 100,
 			size:
 			{
-				min: 0.08,
-				max: 0.05
+				min: 0.03,
+				max: 0.08
 			},
 			alpha:
 			{
@@ -46,8 +46,8 @@ window.addEventListener("load", function() {
 		},
 		speed:
 		{
-			min: 0.0001,
-			max: 0.001
+			min: 0.001,
+			max: 0.01
 		},
 		debug:
 		{
