@@ -27,11 +27,11 @@ window.addEventListener("load", function() {
 		},
 		bokeh:
 		{
-			count: 80,
+			count: 100,
 			size:
 			{
-				min: 0.1,
-				max: 0.1
+				min: 0.08,
+				max: 0.05
 			},
 			alpha:
 			{

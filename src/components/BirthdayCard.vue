@@ -3,16 +3,18 @@
     <div class="content">
        
 
-         <h1>𝙈𝙮 1𝙨𝙩 𝙗𝙞𝙧𝙩𝙝𝙙𝙖𝙮</h1>
-         <div class="babyImg"><img src="./../assets/11.jpeg" style=" width:150px; border-radius: 60px;" alt="Baby photo"/></div>
-         <p>𝘼 𝙮𝙚𝙖𝙧 𝙥𝙖𝙨𝙨𝙚𝙙 𝙖𝙣𝙙 𝙄'𝙢 𝙩𝙪𝙧𝙣𝙞𝙣𝙜 1</p>
+         <h1 @click.prevent="playSound()">𝙈𝙮 1𝙨𝙩 𝙗𝙞𝙧𝙩𝙝𝙙𝙖𝙮 </h1>
+         <div><img src="./../assets/bdayCake.png" style="width: 100px;position: relative;bottom: 85px;left: 285px;" /></div>
+         <div class="babyImg"><img src="./../assets/11.jpeg" alt="Baby photo"/></div>
+         <p>𝘼 𝙮𝙚𝙖𝙧 𝙥𝙖𝙨𝙨𝙚𝙙 𝙖𝙣𝙙 𝙄'𝙢 𝙩𝙪𝙧𝙣𝙞𝙣𝙜 one</p>
          <p>𝙋𝙡𝙚𝙖𝙨𝙚 𝙘𝙤𝙢𝙚 𝙩𝙤 𝙩𝙝𝙚 𝙥𝙖𝙧𝙩𝙮 𝙖𝙣𝙙 𝙝𝙖𝙫𝙚 𝙛𝙪𝙣!</p>
-         <h4>Venue:</h4>
-         <h4>Date:</h4>
-         <h4>See you there!</h4>
-         <h4>Baaruni </h4>
+         <h4>𝙋𝙡𝙚𝙖𝙨𝙚 join us on Feb 13 2019 at 6:00 PM</h4>
+         <h4>Venue </h4>
     </div>
      <canvas id="background" width=1800px height=400px></canvas>
+     <audio autoplay>
+      <source src="./../assets/invite.mp3" type="audio/mpeg">
+    </audio>
     </div>
 </template>
 
@@ -27,8 +29,11 @@ export default {
       msg: 'Birthday'
     }
   },
-  methods(){
-
+  methods:{
+    playSound:function(){
+    
+    }
+    
   }
 }
 </script>
@@ -54,8 +59,12 @@ body, html {
 .babyImg{
   text-align: center;
 }
+.babyImg img{
+  border: 7px solid #FFF; 
+  width:150px; 
+  border-radius: 60px;
+}
 .content{
-    height: 500px;
     width:400px;
     padding: 10px;
     color:rgb(245, 245, 245); 
