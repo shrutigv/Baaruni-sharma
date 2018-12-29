@@ -22,7 +22,7 @@ import Instagram from './components/Instagram.vue'
 import About from './components/About.vue'
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
     Home,
 	Instagram,

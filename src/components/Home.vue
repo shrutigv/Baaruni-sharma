@@ -2,7 +2,7 @@
   <div class="hello">
     <div class="navigation">
       <ul>
-        <li><router-link to="/">Home</router-link></li>
+				<li><router-link to="/">Home</router-link></li>
 				<li><router-link to="/lastestUpdate">Latest update</router-link></li>
 				<li><router-link to="/instagram">Instagram</router-link></li>
 				<li><router-link to="/youtube">Youtube</router-link></li>
