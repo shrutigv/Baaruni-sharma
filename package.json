@@ -1,11 +1,18 @@
 {
   "name": "Baaruni-sharma",
   "version": "0.1.0",
+  "engines": {
+    "node": "10.9.0",
+    "npm": "6.2.0"
+  },
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "postinstall": "npm run build",
+    "start": "node server.js",
+    "deploy": "npm run build"
   },
   "dependencies": {
     "vue": "^2.5.17",
@@ -17,6 +24,8 @@
     "@vue/cli-plugin-babel": "^3.0.4",
     "@vue/cli-plugin-eslint": "^3.0.4",
     "@vue/cli-service": "^3.0.4",
+    "express": "^4.16.4",
+    "serve-static": "^1.13.2",
     "vue-template-compiler": "^2.5.17"
   },
   "eslintConfig": {
