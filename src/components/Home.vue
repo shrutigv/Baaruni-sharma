@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <div class="navigation">
-     	 	<ul>
+     	<ul>
 				<li><router-link to="/">Home</router-link></li>
 				<li><router-link to="/lastestUpdate">Latest update</router-link></li>
 				<li><router-link to="/instagram">Instagram</router-link></li>
