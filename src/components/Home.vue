@@ -8,10 +8,9 @@
 				<li><router-link to="/youtube">Youtube</router-link></li>
 				<li><router-link to="/about">About</router-link></li>
 			</ul>
-    	</div>
-    <h1>Making Memories Last A Lifetime</h1>
-    <div class="main"> <img src="" alt="My page"/>
     </div>
+    <h1>Making Memories Last A Lifetime</h1>
+    <div class="main"><img src="" alt="My page"/></div>
     <div>
       <h1>Yearly updates</h1>
       <div class="list">
