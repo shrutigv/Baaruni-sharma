@@ -1,6 +1,10 @@
 {
   "name": "Baaruni-sharma",
   "version": "0.1.0",
+  "engines": {
+    "node": "10.9.0",
+    "npm": "6.2.0"
+  },
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
