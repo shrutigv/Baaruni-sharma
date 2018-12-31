@@ -1,5 +1,3 @@
-import Vue from 'vue'
-import Router from 'vue-router'
 import Home from './components/Home.vue'
 import About from './components/About.vue'
 import Youtube from './components/Youtube.vue'
@@ -7,11 +5,7 @@ import Instagram from './components/Instagram.vue'
 import Invitation from './components/Invitation.vue'
 import BirthdayCard from './components/BirthdayCard.vue'
 
-
-Vue.use(Router)
-
-export default new Router({
-  routes: [
+export const routes = [
     {
       path: '/',
       name: 'Home',
@@ -48,4 +42,3 @@ export default new Router({
       component: Youtube
     }
   ]
-})

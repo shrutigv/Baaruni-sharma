@@ -1,14 +1,5 @@
 <template>
   <div class="hello">
-    <div class="navigation">
-      <ul>
-				<li><router-link to="/">Home</router-link></li>
-				<li><router-link to="/lastestUpdate">Latest update</router-link></li>
-				<li><router-link to="/instagram">Instagram</router-link></li>
-				<li><router-link to="/youtube">Youtube</router-link></li>
-				<li><router-link to="/about">About</router-link></li>
-			</ul>
-    </div>
     <h1>Making Memories Last A Lifetime</h1>
     <div class="main"><img src="" alt="My page"/></div>
     <div>
@@ -51,81 +42,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-body { margin:0px; background:hsl(70, 31%, 85%); text-align:center; }
-.navigation{
-  text-align: right;
-  height:80px;
-  line-height:80px;
-  background-color: #ffffff;
-}
-.navigation a {
-    text-decoration: none;
-    font-size: 20px;
-}
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-/* background color change */
 
-body {
-	width: 100wh;
-	height: 90vh;
-	color: #2c3e50;
-	background: linear-gradient(-45deg, rgb(82, 168, 238),#ebcede, rgb(252, 245, 155), rgb(160, 253, 231));
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
-}
-
-@-webkit-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
-
-@-moz-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
-
-@keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
-
-.background-change {
-	font-family: 'Open Sans';
-	font-weight: 300;
-	text-align: center;
-	position: absolute;
-	right: 0;
-	left: 0;
-}
 
 .main{
     width: 800px;

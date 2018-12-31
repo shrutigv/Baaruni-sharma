@@ -5,6 +5,7 @@ import App from './App.vue';
 Vue.config.productionTip = true;
 import {routes} from './routes';
 const router  = new VueRouter({routes});
+Vue.use(VueRouter);
 
 new Vue({
   el: '#app',
