@@ -1,7 +1,19 @@
-<template>
-<div class="background">
-    <div class="content">content</div>
-</div>
+<template> 
+<div>
+    <div class="content">
+      <h1 @click.prevent="playSound()" >Namakarana </h1>
+      <div class="mainContent">
+            <div class="babyImg"><img src="./../assets/profile.jpeg" alt="Baby photo"/></div>
+            <p>Please join to celebrate the naming ceremony of our little one!!</p>
+            <h4>On Feb 21 2019</h4>
+            <h4>Venue: </h4>
+      </div>
+    </div>
+     <canvas id="rectBackdrop" width=600px height=400px></canvas>
+     <audio autoplay>
+      <source src="./../assets/invite.mp3" type="audio/mpeg">
+    </audio>
+  </div>
 </template>
 
 <script>
@@ -12,10 +24,13 @@ export default {
   },
   data () {
     return {
-      msg: 'About'
+      msg: 'Namakarana'
     }
   },
-  methods(){
+  methods:{
+     playSound:function(){
+    
+    }
 
   }
 }
@@ -23,46 +38,49 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+h1{
+      font-size: 35px;
+}
+h4{
+      font-size: 30px;
+}
+
+.babyImg{
+  text-align: center;
+}
+.mainContent{
+  bottom: 130px;
+}
+.babyImg img{
+  border: 7px solid #FFF; 
+  width:250px; 
+  border-radius: 60px;
+ }
 .content{
-    height: 500px;
     width:400px;
     padding: 10px;
-    background-color: beige;
+    color:rgb(245, 245, 245); 
+    background-color:#f6b553;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
     vertical-align: center;
+    z-index: 20;
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px rgb(172, 121, 150);
 }
-.background{
-    backdrop-filter: inherit;
-    background-color: rgb(253, 180, 250);
-    box-shadow: 2px 3px 4px #888888;
-    padding: 20px;
-    border-radius: 3px;
-    width: 632px;
-    margin: 0 auto;
+#rectBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -100;
+  
 }
-
-/*Ball css*/
-body {
-  display: flex;
-  justify-content: center;
+@media (min-width: 320px) and (max-width: 480px) {
+  
+ .content{
+      top:3%;
+      left:10%;
+ }
 }
-
-.ball {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: rgb(253, 152, 248);
-
-  animation: bounce 0.5s;
-  animation-direction: alternate;
-  animation-timing-function: cubic-bezier(.5,0.05,1,.5);
-  animation-iteration-count: infinite;
-}
-
-@keyframes bounce {
-  from { transform: translate3d(0, 0, 0);     }
-  to   { transform: translate3d(0, 200px, 0); }
-}
-
 </style>
