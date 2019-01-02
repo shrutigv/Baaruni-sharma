@@ -1,6 +1,7 @@
 {
   "name": "Baaruni-sharma",
   "version": "0.1.0",
+  "main": "node server.js",
   "engines": {
     "node": "10.9.0",
     "npm": "6.2.0"
