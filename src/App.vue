@@ -19,6 +19,9 @@ import Home from './components/Home.vue'
 import Youtube from './components/Youtube.vue'
 import Instagram from './components/Instagram.vue'
 import About from './components/About.vue'
+import VueResource from 'vue-resource';
+
+Vue.use(VueResource);
 
 export default {
   name: 'App',
