@@ -4,7 +4,7 @@ import App from './App.vue';
 
 Vue.config.productionTip = true;
 import {routes} from './routes';
-const router  = new VueRouter({routes});
+const router  = new VueRouter({mode:'history',routes});
 Vue.use(VueRouter);
 
 new Vue({
