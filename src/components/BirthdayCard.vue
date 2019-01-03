@@ -1,9 +1,9 @@
 <template>
     <div>
     <div class="content">
-          <div><img src="./../assets/bday.png" style="width: 400px;"/></div>
+          
           <h1 @click.prevent="playSound()" >𝙈𝙮 1𝙨𝙩 𝙗𝙞𝙧𝙩𝙝𝙙𝙖𝙮 </h1>
-          <div style="position: relative; text-align: right;bottom: 70px;"><img src="./../assets/bday-cake.png" style="width: 80px;" /></div>
+          <div style="position: relative; text-align: right;bottom: 70px;"><img src="./../assets/bday-cake.png" style="width: 50px;" /></div>
             
           <div class="mainContent">
             <div class="babyImg"><img src="./../assets/11.jpeg" alt="Baby photo"/></div>
@@ -64,7 +64,7 @@ body, html {
 }
 .mainContent{
   position: relative;
-  bottom: 130px;
+  bottom: 80px;
 }
 .babyImg img{
   border: 7px solid #FFF; 
@@ -73,7 +73,7 @@ body, html {
  
 }
 .content{
-    width:400px;
+    width:300px;
     padding: 10px;
     color:rgb(245, 245, 245); 
     background-color: rgb(236, 130, 190);
