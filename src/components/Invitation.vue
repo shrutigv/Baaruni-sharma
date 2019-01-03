@@ -1,7 +1,7 @@
 <template> 
 <div>
     <div class="content">
-      <h1 @click.prevent="playSound()" >Namakarana </h1>
+      <h4 @click.prevent="playSound()" >Namakarana</h4>
       <div class="mainContent">
             <div class="babyImg"><img src="./../assets/profile.jpeg" alt="Baby photo"/></div>
             <p>Please join to celebrate the naming ceremony of our little one!!</p>
@@ -40,10 +40,10 @@ export default {
 <style scoped>
 
 h1{
-      font-size: 35px;
+      font-size: 25px;
 }
 h4{
-      font-size: 30px;
+      font-size: 20px;
 }
 
 .babyImg{

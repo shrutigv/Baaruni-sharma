@@ -42,15 +42,16 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
+<style scoped>
 .navigation{
   display:none;
 }
+
 h1{
-      font-size: 35px;
+      font-size: 25px;
 }
-h1{
-      font-size: 30px;
+h4{
+      font-size: 20px;
 }
 body, html {
 			position: absolute;
