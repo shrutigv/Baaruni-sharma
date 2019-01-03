@@ -1,6 +1,6 @@
 <template>
 	<div id="app" class="background-change">
-		<div class="navigation">
+		<div class="navigation" v-if="isHome">
 			<ul>
 				<li><router-link to="/">Home</router-link></li>
 				<li><router-link to="/lastestUpdate">Latest update</router-link></li>
@@ -22,6 +22,11 @@ import About from './components/About.vue'
 
 export default {
   name: 'App',
+  data(){
+	return{
+		isHome:(window.location.pathname=="/") ? true : false
+	}
+  },
   components: {
     Home,
 	Instagram,

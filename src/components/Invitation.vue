@@ -58,7 +58,7 @@ h4{
   border-radius: 60px;
  }
 .content{
-    width:400px;
+    width:300px;
     padding: 10px;
     color:rgb(245, 245, 245); 
     background-color:#f6b553;
