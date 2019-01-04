@@ -14,7 +14,7 @@
          </div>
     </div>
      <canvas id="background" width=1800px height=400px></canvas>
-     <audio autoplay>
+     <audio autoplay id="invite">
       <source src="./../assets/invite.mp3" type="audio/mpeg">
     </audio>
     </div>
@@ -37,6 +37,10 @@ export default {
     
     }
     
+  },
+  beforeCreate(){
+    var audio = document.getElementById('invite');
+    audio.play();
   }
 }
 </script>
