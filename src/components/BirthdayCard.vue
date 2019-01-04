@@ -38,7 +38,7 @@ export default {
     }
     
   },
-  beforeCreate(){
+  mounted(){
     var audio = document.getElementById('invite');
     audio.play();
   }
