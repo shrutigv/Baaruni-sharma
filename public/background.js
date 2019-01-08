@@ -23,7 +23,9 @@ window.addEventListener("load", function() {
 			{
 				min: 25,
 				max: 35
-			}
+			},
+			dark:'rgb(236, 168, 206)',
+			light:'rgb(255, 146, 213)',
 		},
 		bokeh:
 		{
@@ -314,7 +316,7 @@ window.addEventListener("load", function() {
 			grad.addColorStop(0, 'hsla(' + point.color().str() + ', 255)');
 			grad.addColorStop(1, 'hsla(' + point.color().str() + ', 0)');
 
-			gradientBuffer.fillStyle = "rgb(236, 168, 206)";
+			gradientBuffer.fillStyle = options.gradient.dark;
 			gradientBuffer.fillRect(0, 0,
 					options.gradient.resolution, options.gradient.resolution);
 		});
@@ -348,8 +350,8 @@ window.addEventListener("load", function() {
 
 		//debug info
 		if (options.debug.showFps) {
-			if(fps <= 10) ctx.fillStyle = 'rgb(255, 146, 213)';
-			else ctx.fillStyle = 'rgb(255, 146, 213)';
+			if(fps <= 10) ctx.fillStyle = options.gradient.light;
+			else ctx.fillStyle =  options.gradient.light;
 
 			ctx.font = "20px sans-serif";
 			ctx.fillText(Math.round(fps) + " fps", 10, 20);

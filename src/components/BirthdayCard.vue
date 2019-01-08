@@ -34,13 +34,13 @@ export default {
   },
   methods:{
     playSound:function(){
-    
+     var audio = document.getElementById('invite');
+      audio.play();
     }
     
   },
   mounted(){
-    var audio = document.getElementById('invite');
-    audio.play();
+   
   }
 }
 </script>

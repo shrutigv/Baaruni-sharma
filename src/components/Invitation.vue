@@ -61,19 +61,20 @@ h4{
     width:300px;
     padding: 10px;
     color:rgb(245, 245, 245); 
-    background-color:#f6b553;
+    background-color:rgb(250, 152, 33);
     margin: 0 auto;
     text-align: left;
     vertical-align: center;
     z-index: 20;
     border-radius: 6px;
-    box-shadow: 5px 5px 10px rgb(172, 121, 150);
+    box-shadow: 5px 5px 10px #CD853F;
 }
 #rectBackdrop {
   position: fixed;
   top: 0;
   left: 0;
   z-index: -100;
+  background-color:#fcd573;
   
 }
 @media (min-width: 320px) and (max-width: 480px) {

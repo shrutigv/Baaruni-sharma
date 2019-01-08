@@ -60,16 +60,6 @@ margin: 0px;
 }
 /* background color change */
 
-body {
-	width: 100wh;
-	height: 90vh;
-	color: #2c3e50;
-	background: linear-gradient(-45deg, rgb(82, 168, 238),#ebcede, rgb(252, 245, 155), rgb(160, 253, 231));
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
-}
 
 @-webkit-keyframes Gradient {
 	0% {
@@ -115,7 +105,6 @@ body {
 	right: 0;
 	left: 0;
 }
-body { margin:0px; background:hsl(70, 31%, 85%); text-align:center; }
 
 
 </style>
