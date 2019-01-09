@@ -4,7 +4,7 @@ window.addEventListener("load", function() {
         var ctx=canvas.getContext("2d");
         var k=1;
         var ball=[];
-        var radius=30;
+        var radius=0.03;
         var ballCount=100;
         var rectWidth=4;
         var rectHeight=50;
@@ -24,6 +24,9 @@ window.addEventListener("load", function() {
         }
         ctx.canvas.width  = window.innerWidth;
         ctx.canvas.height = window.innerHeight;
+        w =  ctx.canvas.width * 1;
+		h = ctx.canvas.height * 1;
+		var scale = Math.sqrt(w * h) * radius;
         var x=window.innerHeight-300;
         var y=window.innerWidth/200;
         
@@ -49,7 +52,7 @@ window.addEventListener("load", function() {
                  
             }
             ctx.beginPath();
-            ctx.arc(ball[i].x,ball[i].y,radius,0,2*Math.PI);
+            ctx.arc(ball[i].x,ball[i].y,scale,0,2*Math.PI);
            
             ctx.fillStyle=color[Math.round(i%6)];
             ctx.fill();
