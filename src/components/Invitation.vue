@@ -1,12 +1,14 @@
 <template> 
 <div>
     <div class="content">
-      <h4 @click.prevent="playSound()" >Namakarana</h4>
+      <h1 @click.prevent="playSound()" >Namakarana</h1>
       <div class="mainContent">
             <div class="babyImg"><img src="./../assets/profile.jpeg" alt="Baby photo"/></div>
             <p>Please join to celebrate the naming ceremony of our little one!!</p>
             <h4>On Feb 21 2019</h4>
             <h4>Venue: </h4>
+            <p>Rajathashree Sabhangana, #1122, Service Rd, Vijayanagar 2nd stage, Hampi Nagar, RPC Layout, Vijaya Nagar, Bengaluru, Karnataka 560104</p>
+            
       </div>
     </div>
      <canvas id="rectBackdrop" width=600px height=400px></canvas>
@@ -40,10 +42,14 @@ export default {
 <style scoped>
 
 h1{
-      font-size: 25px;
+  margin:0;
+  font-size: 22px;
+  font-weight: bold;
 }
 h4{
-      font-size: 20px;
+  margin:0;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .babyImg{
