@@ -63,8 +63,8 @@ export default {
     font-weight: bold;
     font-size: 20px;
     position: fixed;
-    left: 48%;
-    top: 35%;
+    left: 45%;
+    top: 37%;
 }
 h1{
   margin:0;
