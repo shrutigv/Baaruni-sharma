@@ -15,7 +15,7 @@
     </div>
    
     <div id="envelope">
-      <img src="./../assets/envelope.png" alt="envelope"/>
+      <img src="./../assets/envelope.png" alt="envelope" style="width:200px;"/>
     <button class="roundBtn" @click.prevent="playSound()">Open</button>
     </div>
    
@@ -55,6 +55,7 @@ export default {
 }
 .roundBtn{
     width: 70px;
+    padding:0;
     border-radius: 80px;
     height: 70px;
     background-color: #fbfb2d;
