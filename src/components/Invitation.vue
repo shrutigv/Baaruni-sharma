@@ -15,7 +15,7 @@
     </div>
    
     <div id="envelope">
-      <img src="./../assets/envelope.png" alt="envelope" style="width:200px;"/>
+      <img src="./../assets/envelope.png" alt="envelope" style="width:300px;"/>
     <button class="roundBtn" @click.prevent="playSound()">Open</button>
     </div>
    
@@ -64,7 +64,7 @@ export default {
     font-size: 20px;
     position: fixed;
     left: 48%;
-    top: 37%;
+    top: 35%;
 }
 h1{
   margin:0;
