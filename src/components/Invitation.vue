@@ -63,7 +63,7 @@ export default {
     font-weight: bold;
     font-size: 20px;
     position: fixed;
-    left: 45%;
+    left: 43%;
     top: 37%;
 }
 h1{
