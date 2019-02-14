@@ -6,17 +6,16 @@
             <h1>Namakarana</h1>
             <div class="babyImg"><img src="./../assets/profile.jpeg" alt="Baby photo"/></div>
             <p>𝗣𝗹𝗲𝗮𝘀𝗲 𝗷𝗼𝗶𝗻 𝘁𝗼 𝗰𝗲𝗹𝗲𝗯𝗿𝗮𝘁𝗲 𝘁𝗵𝗲 𝗻𝗮𝗺𝗶𝗻𝗴 𝗰𝗲𝗿𝗲𝗺𝗼𝗻𝘆 𝗼𝗳 𝗼𝘂𝗿 𝗹𝗶𝘁𝘁𝗹𝗲 𝗼𝗻𝗲!!</p>
-            <h4>On Feb 21 2019</h4>
-            <h4>Venue: </h4>
+            <p>𝗼𝗻 F𝗲𝗯 21 2019 @ 11:30 𝗮𝗺</p>
+            <span>Venue: </span>
             <p>𝗥𝗮𝗷𝗮𝘁𝗵𝗮𝘀𝗵𝗿𝗲𝗲 𝗦𝗮𝗯𝗵𝗮𝗻𝗴𝗮𝗻𝗮, #𝟭𝟭𝟮𝟮, 𝗦𝗲𝗿𝘃𝗶𝗰𝗲 𝗥𝗱, 𝗩𝗶𝗷𝗮𝘆𝗮𝗻𝗮𝗴𝗮𝗿 𝟮𝗻𝗱 𝘀𝘁𝗮𝗴𝗲, 𝗛𝗮𝗺𝗽𝗶 𝗡𝗮𝗴𝗮𝗿, 𝗥𝗣𝗖 𝗟𝗮𝘆𝗼𝘂𝘁, 𝗩𝗶𝗷𝗮𝘆𝗮 𝗡𝗮𝗴𝗮𝗿, 𝗕𝗲𝗻𝗴𝗮𝗹𝘂𝗿𝘂, 𝗞𝗮𝗿𝗻𝗮𝘁𝗮𝗸𝗮 𝟱𝟲𝟬𝟭𝟬𝟰</p>
-            <span>𝗡𝗲𝗲𝗱 𝗺𝗮𝗽 𝗵𝗲𝗹𝗽?</span><a href="https://www.google.com/maps/dir/13.0217004,77.5843454/%F0%9D%97%A5%F0%9D%97%AE%F0%9D%97%B7%F0%9D%97%AE%F0%9D%98%81%F0%9D%97%B5%F0%9D%97%AE%F0%9D%98%80%F0%9D%97%B5%F0%9D%97%BF%F0%9D%97%B2%F0%9D%97%B2+%F0%9D%97%A6%F0%9D%97%AE%F0%9D%97%AF%F0%9D%97%B5%F0%9D%97%AE%F0%9D%97%BB%F0%9D%97%B4%F0%9D%97%AE%F0%9D%97%BB%F0%9D%97%AE,+%23%F0%9D%9F%AD%F0%9D%9F%AD%F0%9D%9F%AE%F0%9D%9F%AE,+%F0%9D%97%A6%F0%9D%97%B2%F0%9D%97%BF%F0%9D%98%83%F0%9D%97%B6%F0%9D%97%B0%F0%9D%97%B2+%F0%9D%97%A5%F0%9D%97%B1,+%F0%9D%97%A9%F0%9D%97%B6%F0%9D%97%B7%F0%9D%97%AE%F0%9D%98%86%F0%9D%97%AE%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%B4%F0%9D%97%AE%F0%9D%97%BF+%F0%9D%9F%AE%F0%9D%97%BB%F0%9D%97%B1+%F0%9D%98%80%F0%9D%98%81%F0%9D%97%AE%F0%9D%97%B4%F0%9D%97%B2,+%F0%9D%97%9B%F0%9D%97%AE%F0%9D%97%BA%F0%9D%97%BD%F0%9D%97%B6+%F0%9D%97%A1%F0%9D%97%AE%F0%9D%97%B4%F0%9D%97%AE%F0%9D%97%BF,+%F0%9D%97%A5%F0%9D%97%A3%F0%9D%97%96+%F0%9D%97%9F%F0%9D%97%AE%F0%9D%98%86%F0%9D%97%BC%F0%9D%98%82%F0%9D%98%81,+%F0%9D%97%A9%F0%9D%97%B6%F0%9D%97%B7%F0%9D%97%AE%F0%9D%98%86%F0%9D%97%AE+%F0%9D%97%A1%F0%9D%97%AE%F0%9D%97%B4%F0%9D%97%AE%F0%9D%97%BF,+%F0%9D%97%95%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%B4%F0%9D%97%AE%F0%9D%97%B9%F0%9D%98%82%F0%9D%97%BF%F0%9D%98%82,+%F0%9D%97%9E%F0%9D%97%AE%F0%9D%97%BF%F0%9D%97%BB%F0%9D%97%AE%F0%9D%98%81%F0%9D%97%AE%F0%9D%97%B8%F0%9D%97%AE+%F0%9D%9F%B1%F0%9D%9F%B2%F0%9D%9F%AC%F0%9D%9F%AD%F0%9D%9F%AC%F0%9D%9F%B0/@12.9897991,77.5247191,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bae3e741f38dc95:0xde91456eba1c3ac1!2m2!1d77.5336125!2d12.9597754">𝗰𝗹𝗶𝗰𝗸 𝗺𝗲</a>
+            <span>𝗺𝗮𝗽𝘀?</span><a href="https://www.google.com/maps/place/Rajathashree+Sabhangana/@12.9897991,77.5247191,13z/data=!4m18!1m12!4m11!1m3!2m2!1d77.5336446!2d12.9636212!1m6!1m2!1s0x3bae3e741f38dc95:0xde91456eba1c3ac1!2z8J2XpfCdl67wnZe38J2XrvCdmIHwnZe18J2XrvCdmIDwnZe18J2Xv_Cdl7LwnZeyIPCdl6bwnZeu8J2Xr_Cdl7XwnZeu8J2Xu_Cdl7TwnZeu8J2Xu_Cdl64sICPwnZ-t8J2frfCdn67wnZ-uLCDwnZem8J2XsvCdl7_wnZiD8J2XtvCdl7DwnZeyIPCdl6XwnZexLCDwnZep8J2XtvCdl7fwnZeu8J2YhvCdl67wnZe78J2XrvCdl7TwnZeu8J2XvyDwnZ-u8J2Xu_Cdl7Eg8J2YgPCdmIHwnZeu8J2XtPCdl7IsIPCdl5vwnZeu8J2XuvCdl73wnZe2IPCdl6HwnZeu8J2XtPCdl67wnZe_LCDwnZel8J2Xo_Cdl5Yg8J2Xn_Cdl67wnZiG8J2XvPCdmILwnZiBLCDwnZep8J2XtvCdl7fwnZeu8J2YhvCdl64g8J2XofCdl67wnZe08J2XrvCdl78sIPCdl5XwnZey8J2Xu_Cdl7TwnZeu8J2XufCdmILwnZe_8J2Ygiwg8J2XnvCdl67wnZe_8J2Xu_Cdl67wnZiB8J2XrvCdl7jwnZeuIPCdn7HwnZ-y8J2frPCdn63wnZ-s8J2fsA!2m2!1d77.5336125!2d12.9597754!3m4!1s0x3bae3e741f38dc95:0xde91456eba1c3ac1!8m2!3d12.9597754!4d77.5336125">C𝗹𝗶𝗰𝗸 𝗺𝗲</a>
          </div>  
         </div>
     </div>
    
     <div id="envelope">
-      <img src="./../assets/envelope.png" alt="envelope" style="width:300px;"/>
-    <button class="roundBtn" @click.prevent="playSound()">Open</button>
+      <img src="./../assets/invitation.gif" alt="envelope" style="width:310px;" @click.prevent="playSound()"/>
     </div>
    
      <canvas id="rectBackdrop" width=600px height=400px></canvas>
@@ -53,30 +52,15 @@ export default {
 #card{
   display: none;
 }
-.roundBtn{
-    width: 70px;
-    padding:0;
-    border-radius: 80px;
-    height: 70px;
-    background-color: #fbfb2d;
-    color: #ffa500;
-    font-weight: bold;
-    font-size: 20px;
-    position: fixed;
-    left: 43%;
-    top: 37%;
+.mainContent a {
+    color: white;
 }
 h1{
   margin:0;
   font-size: 22px;
   font-weight: bold;
+  text-align: center;
 }
-h4{
-  margin:0;
-  font-size: 18px;
-  font-weight: bold;
-}
-
 .babyImg{
   text-align: center;
 }
