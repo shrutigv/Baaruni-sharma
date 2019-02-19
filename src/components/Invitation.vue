@@ -40,7 +40,7 @@ export default {
      playSound:function(){
        document.getElementById("card").style.display = "block";
        document.getElementById("envelope").style.display = "none";
-       document.getElementById("invite-music").play();
+       //document.getElementById("invite-music").play();
     }
 
   }
